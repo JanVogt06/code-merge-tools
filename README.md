@@ -12,9 +12,10 @@ Sammlung von Bash-Skripten zum Zusammenführen von Source-Code-Dateien in einzel
 
 ## 📦 Verfügbare Skripte
 
-- `merge-csharp-files.sh` - Führt .cs Dateien zusammen
-- `merge-python-files.sh` - Führt .py Dateien zusammen (mit smart excludes für venv, __pycache__ etc.)
-- `merge-web-files.sh` - Führt HTML/CSS/JS/TS Dateien zusammen
+- `merge-csharp-files.sh` - Führt .cs Dateien zusammen.
+- `merge-python-files.sh` - Führt .py Dateien zusammen (mit smart excludes für venv, __pycache__ etc.).
+- `merge-web-files.sh` - Führt HTML/CSS/JS/TS Dateien zusammen.
+- `get_folder_structure.sh` - Listet Ordnerstruktur in einer Datei auf.
 
 ## 💻 Verwendung
 ```bash
