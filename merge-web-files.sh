@@ -23,7 +23,7 @@ show_help() {
     echo "  -o, --output FILE    Name der Ausgabedatei (Standard: merged_web_files.txt)"
     echo "  -r, --recursive      Rekursiv in Unterverzeichnissen suchen"
     echo "  -e, --exclude PATH   Verzeichnisse/Dateien ausschließen (z.B. node_modules, dist)"
-    echo "  -t, --types TYPES    Dateitypen zum Einschließen (Standard: html,css,js)"
+    echo "  -t, --types TYPES    Dateitypen zum Einschließen (Standard: html,css,js,ts,tsx)"
     echo "  -h, --help          Diese Hilfe anzeigen"
     echo ""
     echo "Beispiele:"
@@ -32,7 +32,7 @@ show_help() {
 }
 
 # Standard-Dateitypen
-FILE_TYPES=("html" "css" "js")
+FILE_TYPES=("html" "css" "js" "ts" "tsx")
 
 # Parameter verarbeiten
 RECURSIVE=""
